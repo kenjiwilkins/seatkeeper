@@ -1,0 +1,30 @@
+<!DOCTYPE HTML>
+<html>
+  <head>
+    <style>
+    </style>
+    <script>
+</script>
+  </head>
+  <body>
+    <header>
+      <h1>Seat Keeper</h1>
+      <p>keep your seat while you're away</p>
+    </header>
+        <div class='frame'>
+          <h2 id = 'welcome'>How long are you going to leave?</h2>
+        <form>
+          <label for='time'>Time (min)</label>
+          <input type='text' id = 'time'/><br />
+          <label for='reason'>Why</label>
+          <select name='reason' id='reason'>
+            <option>bathroom</option>
+            <option>buying some coffee</option>
+            <option>doing zen meditation</option>
+          </select><br />
+          <button id = 'button' class="button" onclick='showMessage()'>SHOW</button>
+        </form>
+        <h1 id = 'message'>''</h1>
+      </div>
+  </body>
+</html>
